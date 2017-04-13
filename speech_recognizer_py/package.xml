@@ -7,13 +7,12 @@
   <author email="byeongkyu@gmail.com">Byeong-Kyu Ahn</author>
   <maintainer email="byeongkyu@gmail.com">Byeong-Kyu Ahn</maintainer>
 
-
   <license>BSD</license>
   <url type="website">https://github.com/mhri/mhri/wiki</url>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <exec_depend>rospy</exec_depend>  
-  <depend>mhri_msgs</depend>
+  <exec_depend>rospy</exec_depend>
+  <depend>mhri_social_msgs</depend>
 
   <export>
   </export>

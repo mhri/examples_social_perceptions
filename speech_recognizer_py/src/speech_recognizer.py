@@ -5,7 +5,7 @@ import rospy
 from perception_core.perception_base import PerceptionBase
 
 from std_msgs.msg import Float64
-from google_cloud_speech.msg import RecognizedWord
+from mhri_social_msgs.msg import RecognizedWord
 
 
 class SpeechRecognizer(PerceptionBase):
