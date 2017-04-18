@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>static_object_info_publisher</name>
+  <version>0.0.0</version>
+  <description>The static_object_info package</description>
+
+  <author email="byeongkyu@gmail.com">Byeong-Kyu Ahn</author>
+  <maintainer email="byeongkyu@gmail.com">Byeong-Kyu Ahn</maintainer>
+
+  <license>BSD</license>
+  <url type="website">https://github.com/mhri/mhri/wiki</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>perception_core</exec_depend>
+  <exec_depend>rospy</exec_depend>
+
+  <export>
+  </export>
+</package>
