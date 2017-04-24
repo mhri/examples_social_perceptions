@@ -10,7 +10,7 @@ from mhri_social_msgs.msg import RecognizedWord
 
 class SpeechRecognizer(PerceptionBase):
     def __init__(self):
-        super(SpeechRecognizer, self).__init__("sp_speech_recognizer")
+        super(SpeechRecognizer, self).__init__("speech_recognizer")
 
         rospy.Subscriber('recognized_word', RecognizedWord, self.handle_recognized_word)
         rospy.loginfo('[%s] initialze done...'%rospy.get_name())

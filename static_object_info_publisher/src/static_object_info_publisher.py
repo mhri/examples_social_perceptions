@@ -10,7 +10,7 @@ from std_msgs.msg import Float64
 
 class StaticObjectInfoPublisher(PerceptionBase):
     def __init__(self):
-        super(StaticObjectInfoPublisher, self).__init__("sp_static_object_info_publisher")
+        super(StaticObjectInfoPublisher, self).__init__("static_object_info_publisher")
 
         refresh_period = rospy.get_param('~refresh_period', 1.0)
         self.object_list_file = rospy.get_param('~object_list_file', '')

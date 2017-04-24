@@ -1,5 +1,5 @@
 <launch>
-    <node name="sp_speech_recognizer" type="speech_recognizer.py" pkg="speech_recognizer_py" output="screen">
+    <node name="speech_recognizer" type="speech_recognizer.py" pkg="speech_recognizer_py" output="screen">
         <param name="config_file" value="$(find speech_recognizer_py)/config/perception_conf.yaml" />
     </node>
 </launch>
