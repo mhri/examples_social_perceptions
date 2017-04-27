@@ -2,7 +2,7 @@ objects:
     target_memory: 'environmental_memory'
     events: []
     data:
-        object_name: ''
+        name: ''
         description: ''
         xyz: [0.0, 0.0, 0.0]  # Represents the x, y, z
         rpy: [0.0, 0.0, 0.0]  # Represents the fixed axis roll, pitch, yaw

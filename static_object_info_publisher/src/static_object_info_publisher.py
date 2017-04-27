@@ -29,7 +29,7 @@ class StaticObjectInfoPublisher(PerceptionBase):
 
         for k, v in object_list.items():
             write_data = self.conf_data['objects']['data']
-            write_data['object_name'] = k
+            write_data['name'] = k
             write_data.update(v)
 
             self.save_to_memory(self.conf_data.keys()[0], data=write_data)
