@@ -1,0 +1,15 @@
+face_detection:
+    target_memory: 'social_events_memory'
+    events: ['face_detected']
+    data:
+        num_of_detected: 0
+        
+persons:
+    target_memory: 'environmental_memory'
+    events: []
+    data:
+        name: ''
+        description: ''
+        xyz: [0.0, 0.0, 0.0]  # Represents the x, y, z
+        rpy: [0.0, 0.0, 0.0]  # Represents the fixed axis roll, pitch, yaw
+        frame_id: 'world'     # frame_id

@@ -1,8 +1,9 @@
 <launch>
+    <arg name="object_list" default="$(find static_object_info_publisher)/config/object_list.yaml"/>
+
     <node name="static_object_info_publisher" type="static_object_info_publisher.py" pkg="static_object_info_publisher" output="screen">
         <param name="config_file" value="$(find static_object_info_publisher)/config/perception_conf.yaml" />
-        <param name="object_list_file" value="$(find static_object_info_publisher)/config/object_list.yaml" />
+        <param name="object_list_file" value="$(arg object_list)" />
     </node>
     <node name="object_tf_publisher" type="object_tf_publisher_node.py" pkg="object_tf_publisher" output="screen" />
-    <node name="static_tf_publisher" type="static_transform_publisher" pkg="tf" args="0 0 0 0 0 0 world odom 0.2" output="screen"/>
 </launch>
