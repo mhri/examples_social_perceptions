@@ -14,3 +14,9 @@ objects:
           #mesh: 'file_name.dae' # Mesh file name
         material:
           color: [1.0, 1.0, 1.0, 1.0] # RGBA
+
+objects_info:
+    target_memory: 'environmental_memory'
+    events: []
+    data:
+        num_of_objects: 0

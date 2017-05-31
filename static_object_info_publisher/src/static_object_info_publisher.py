@@ -32,7 +32,11 @@ class StaticObjectInfoPublisher(PerceptionBase):
             write_data['name'] = k
             write_data.update(v)
 
-            self.save_to_memory(self.conf_data.keys()[0], data=write_data)
+            self.save_to_memory('objects', data=write_data)
+
+        write_info_data = self.conf_data['objects_info']['data']
+        write_info_data['num_of_objects'] = len(object_list)
+        self.save_to_memory('objects_info', data=write_info_data)
 
 if __name__ == '__main__':
     m = StaticObjectInfoPublisher()
