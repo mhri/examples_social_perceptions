@@ -4,7 +4,7 @@
 import os
 import yaml
 import rospy
-from perception_core.perception_base import PerceptionBase
+from perception_base.perception_base import PerceptionBase
 
 from std_msgs.msg import Float64
 

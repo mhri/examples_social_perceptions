@@ -2,7 +2,7 @@
 #-*- encoding: utf8 -*-
 
 import rospy
-from perception_core.perception_base import PerceptionBase
+from perception_base.perception_base import PerceptionBase
 
 from std_msgs.msg import Float64
 from mhri_social_msgs.msg import RecognizedWord
