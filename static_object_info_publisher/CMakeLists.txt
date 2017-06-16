@@ -8,7 +8,7 @@ project(static_object_info_publisher)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  perception_core
+  perception_base
   rospy
 )
 

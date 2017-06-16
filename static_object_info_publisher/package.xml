@@ -11,7 +11,7 @@
   <url type="website">https://github.com/mhri/mhri/wiki</url>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <exec_depend>perception_core</exec_depend>
+  <exec_depend>perception_base</exec_depend>
   <exec_depend>rospy</exec_depend>
 
   <export>
